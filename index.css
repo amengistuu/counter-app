@@ -1,9 +1,14 @@
 body {
-    background-image: url("station.jpg");
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXNvem15aGVrMXNmb2VhbXVnZDBqNnZhMnEydW0ycDg3dDVnNGhocCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nikrG4cs7DLrc794jI/giphy.gif");
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -21,7 +26,7 @@ button {
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: #f3f3f3;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
@@ -29,10 +34,23 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: #BF2600;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: #36B37E;
+}
+
+.card {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center; */
+    padding: 70px;
+    background: rgba(243, 243, 243, 0.7);
+    opacit;
+    border-radius: 5px;
+    border: 5px solid skyblue;
+    max-width: 500px;
 }
 
